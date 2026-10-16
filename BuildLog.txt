@@ -1,0 +1,174 @@
+﻿Running AutomationTool...
+Using bundled DotNet SDK version: 10.0 win-x64
+Starting AutomationTool...
+Parsing command line: BuildPlugin -Plugin="B:\Projects\XSessionDemo\Plugins\XSession\XSession.uplugin  " -Package=B:\Projects\XSessionDemo\Builds\XSession -Rocket -2019
+Initializing script modules...
+Total script module initialization time: 0.17 s.
+Using B:\VisualStudio\Community\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Copying 310 file(s) using max 64 thread(s)
+Reading plugin from B:\Projects\XSessionDemo\Builds\XSession\HostProject\Plugins\XSession\XSession.uplugin...
+Building plugin for host platforms: Win64
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealEditor Win64 Development -Project="B:\Projects\XSessionDemo\Builds\XSession\HostProject\HostProject.uproject" -plugin="B:\Projects\XSessionDemo\Builds\XSession\HostProject\Plugins\XSession\XSession.uplugin" -noubtmakefiles -manifest="B:\Projects\XSessionDemo\Builds\XSession\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealEditor-Win64-Development.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealEditor (no existing makefile)
+UHT compiled-in object format Default
+Writing manifest to B:\Projects\XSessionDemo\Builds\XSession\HostProject\Saved\Manifest-UnrealEditor-Win64-Development.xml
+Building UnrealEditor...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from XSession unity file: XSession.cpp, XSessionCancelFindCallbackProxy.cpp, XSessionCreateCallbackProxy.cpp, XSessionDestroyCallbackProxy.cpp, XSessionEndCallbackProxy.cpp, XSessionFindCallbackProxy.cpp, XSessionFunctionLibrary.cpp, XSessionJoinCallbackProxy.cpp, XSessionStartCallbackProxy.cpp, XSessionAttribute.cpp, XSessionBoolAttribute.cpp, XSessionFloatAttribute.cpp, XSessionIntAttribute.cpp, XSessionNameAttribute.cpp, XSessionStringAttribute.cpp, XSessionTextAttribute.cpp, XSessionBoolComparison.cpp, XSessionComparison.cpp, XSessionFloatComparison.cpp, XSessionIntComparison.cpp, XSessionNameComparison.cpp, XSessionStringComparison.cpp, XSessionTextComparison.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 29 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 20.5 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/29] Compile Resource [x64] Default.rc2
+[2/29] Compile [x64] SharedPCH.UnrealEd.Cpp20.cpp
+[3/29] Compile [x64] XSession.cpp
+[4/29] Compile [x64] XSessionAttribute.cpp
+[5/29] Compile [x64] XSessionBoolComparison.cpp
+[6/29] Compile [x64] XSessionBoolAttribute.cpp
+[7/29] Compile [x64] XSessionComparison.cpp
+[8/29] Compile [x64] Module.XSession.cpp
+[9/29] Compile [x64] XSessionCancelFindCallbackProxy.cpp
+[10/29] Compile [x64] XSessionCreateCallbackProxy.cpp
+[11/29] Compile [x64] XSessionFloatComparison.cpp
+[12/29] Compile [x64] XSessionFloatAttribute.cpp
+[13/29] Compile [x64] XSessionDestroyCallbackProxy.cpp
+[14/29] Compile [x64] XSessionEndCallbackProxy.cpp
+[15/29] Compile [x64] XSessionIntAttribute.cpp
+[16/29] Compile [x64] XSessionIntComparison.cpp
+[17/29] Compile [x64] XSessionFindCallbackProxy.cpp
+[18/29] Compile [x64] XSessionFunctionLibrary.cpp
+[19/29] Compile [x64] XSessionNameAttribute.cpp
+[20/29] Compile [x64] XSessionNameComparison.cpp
+[21/29] Compile [x64] XSessionJoinCallbackProxy.cpp
+[22/29] Compile [x64] XSessionStringAttribute.cpp
+[23/29] Compile [x64] XSessionStringComparison.cpp
+[24/29] Compile [x64] XSessionTextAttribute.cpp
+[25/29] Compile [x64] XSessionTextComparison.cpp
+[26/29] Compile [x64] XSessionStartCallbackProxy.cpp
+[27/29] Link [x64] UnrealEditor-XSession.lib
+[28/29] Link [x64] UnrealEditor-XSession.dll
+[29/29] WriteMetadata UnrealEditor.target [NoUba]
+
+Total time in Unreal Build Accelerator local executor: 43.12 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe
+
+Result: Succeeded
+Total execution time: 52.14 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 15.7kb
+Took 52,52s to run dotnet.exe, ExitCode=0
+Building plugin for target platforms: Win64
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Development -Project="B:\Projects\XSessionDemo\Builds\XSession\HostProject\HostProject.uproject" -plugin="B:\Projects\XSessionDemo\Builds\XSession\HostProject\Plugins\XSession\XSession.uplugin" -noubtmakefiles -manifest="B:\Projects\XSessionDemo\Builds\XSession\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Development.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealGame (no existing makefile)
+UHT compiled-in object format Default
+Writing manifest to B:\Projects\XSessionDemo\Builds\XSession\HostProject\Saved\Manifest-UnrealGame-Win64-Development.xml
+Building UnrealGame...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from XSession unity file: XSession.cpp, XSessionCancelFindCallbackProxy.cpp, XSessionCreateCallbackProxy.cpp, XSessionDestroyCallbackProxy.cpp, XSessionEndCallbackProxy.cpp, XSessionFindCallbackProxy.cpp, XSessionFunctionLibrary.cpp, XSessionJoinCallbackProxy.cpp, XSessionStartCallbackProxy.cpp, XSessionAttribute.cpp, XSessionBoolAttribute.cpp, XSessionFloatAttribute.cpp, XSessionIntAttribute.cpp, XSessionNameAttribute.cpp, XSessionStringAttribute.cpp, XSessionTextAttribute.cpp, XSessionBoolComparison.cpp, XSessionComparison.cpp, XSessionFloatComparison.cpp, XSessionIntComparison.cpp, XSessionNameComparison.cpp, XSessionStringComparison.cpp, XSessionTextComparison.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 24 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 19.9 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/24] Compile [x64] XSession.cpp
+[2/24] Compile [x64] XSessionBoolComparison.cpp
+[3/24] Compile [x64] XSessionBoolAttribute.cpp
+[4/24] Compile [x64] XSessionComparison.cpp
+[5/24] Compile [x64] Module.XSession.cpp
+[6/24] Compile [x64] XSessionAttribute.cpp
+[7/24] Compile [x64] XSessionCancelFindCallbackProxy.cpp
+[8/24] Compile [x64] XSessionCreateCallbackProxy.cpp
+[9/24] Compile [x64] XSessionDestroyCallbackProxy.cpp
+[10/24] Compile [x64] XSessionFloatAttribute.cpp
+[11/24] Compile [x64] XSessionFloatComparison.cpp
+[12/24] Compile [x64] XSessionEndCallbackProxy.cpp
+[13/24] Compile [x64] XSessionIntAttribute.cpp
+[14/24] Compile [x64] XSessionIntComparison.cpp
+[15/24] Compile [x64] XSessionFindCallbackProxy.cpp
+[16/24] Compile [x64] XSessionFunctionLibrary.cpp
+[17/24] Compile [x64] XSessionNameAttribute.cpp
+[18/24] Compile [x64] XSessionNameComparison.cpp
+[19/24] Compile [x64] XSessionJoinCallbackProxy.cpp
+[20/24] Compile [x64] XSessionStringAttribute.cpp
+[21/24] Compile [x64] XSessionStringComparison.cpp
+[22/24] Compile [x64] XSessionTextAttribute.cpp
+[23/24] Compile [x64] XSessionTextComparison.cpp
+[24/24] Compile [x64] XSessionStartCallbackProxy.cpp
+
+Total time in Unreal Build Accelerator local executor: 20.98 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealGame.exe
+
+Result: Succeeded
+Total execution time: 23.93 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 12.1kb
+Took 24,12s to run dotnet.exe, ExitCode=0
+Running: B:\UnrealEngine\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "B:\UnrealEngine\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" UnrealGame Win64 Shipping -Project="B:\Projects\XSessionDemo\Builds\XSession\HostProject\HostProject.uproject" -plugin="B:\Projects\XSessionDemo\Builds\XSession\HostProject\Plugins\XSession\XSession.uplugin" -noubtmakefiles -manifest="B:\Projects\XSessionDemo\Builds\XSession\HostProject\Saved\Manifest-UnrealGame-Win64-Shipping.xml" -nohotreload -log="C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Shipping.txt"
+Log file: C:\Users\dexie\AppData\Roaming\Unreal Engine\AutomationTool\Logs\B+UnrealEngine+UE_5.8\UBA-UnrealGame-Win64-Shipping.txt
+Determining max actions to execute in parallel (8 physical cores, 16 logical cores)
+  Executing up to 8 processes, one per physical core
+UbaServer - Listening on 0.0.0.0:1345
+Creating makefile for UnrealGame (no existing makefile)
+Writing manifest to B:\Projects\XSessionDemo\Builds\XSession\HostProject\Saved\Manifest-UnrealGame-Win64-Shipping.xml
+Building UnrealGame...
+===== Toolchain Information =====
+Using ISPC compiler (B:\UnrealEngine\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+  Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+Using Visual Studio 14.44.35229 toolchain (B:\VisualStudio\Community\VC\Tools\MSVC\14.44.35207) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[Adaptive Build] Excluded from XSession unity file: XSession.cpp, XSessionCancelFindCallbackProxy.cpp, XSessionCreateCallbackProxy.cpp, XSessionDestroyCallbackProxy.cpp, XSessionEndCallbackProxy.cpp, XSessionFindCallbackProxy.cpp, XSessionFunctionLibrary.cpp, XSessionJoinCallbackProxy.cpp, XSessionStartCallbackProxy.cpp, XSessionAttribute.cpp, XSessionBoolAttribute.cpp, XSessionFloatAttribute.cpp, XSessionIntAttribute.cpp, XSessionNameAttribute.cpp, XSessionStringAttribute.cpp, XSessionTextAttribute.cpp, XSessionBoolComparison.cpp, XSessionComparison.cpp, XSessionFloatComparison.cpp, XSessionIntComparison.cpp, XSessionNameComparison.cpp, XSessionStringComparison.cpp, XSessionTextComparison.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 24 action(s)
+  CPU 8 physical cores, 16 logical cores
+  Memory 63.91 GB physical, 19.46 GB/67.91 GB committed
+  UBA Storage capacity 40 GB
+[1/24] Compile [x64] XSession.cpp
+[2/24] Compile [x64] XSessionComparison.cpp
+[3/24] Compile [x64] XSessionBoolComparison.cpp
+[4/24] Compile [x64] XSessionBoolAttribute.cpp
+[5/24] Compile [x64] XSessionAttribute.cpp
+[6/24] Compile [x64] Module.XSession.cpp
+[7/24] Compile [x64] XSessionCancelFindCallbackProxy.cpp
+[8/24] Compile [x64] XSessionCreateCallbackProxy.cpp
+[9/24] Compile [x64] XSessionDestroyCallbackProxy.cpp
+[10/24] Compile [x64] XSessionFloatAttribute.cpp
+[11/24] Compile [x64] XSessionFloatComparison.cpp
+[12/24] Compile [x64] XSessionIntAttribute.cpp
+[13/24] Compile [x64] XSessionEndCallbackProxy.cpp
+[14/24] Compile [x64] XSessionIntComparison.cpp
+[15/24] Compile [x64] XSessionFindCallbackProxy.cpp
+[16/24] Compile [x64] XSessionFunctionLibrary.cpp
+[17/24] Compile [x64] XSessionNameAttribute.cpp
+[18/24] Compile [x64] XSessionNameComparison.cpp
+[19/24] Compile [x64] XSessionJoinCallbackProxy.cpp
+[20/24] Compile [x64] XSessionStringAttribute.cpp
+[21/24] Compile [x64] XSessionStringComparison.cpp
+[22/24] Compile [x64] XSessionTextAttribute.cpp
+[23/24] Compile [x64] XSessionTextComparison.cpp
+[24/24] Compile [x64] XSessionStartCallbackProxy.cpp
+
+Total time in Unreal Build Accelerator local executor: 17.74 seconds
+Output binary: B:\UnrealEngine\UE_5.8\Engine\Binaries\Win64\UnrealGame-Win64-Shipping.exe
+
+Result: Succeeded
+Total execution time: 19.37 seconds
+Trace written to file C:\Users\dexie\AppData\Local\UnrealBuildTool\Trace.uba with size 11.7kb
+Took 19,54s to run dotnet.exe, ExitCode=0
+Reading filter rules from B:\Projects\XSessionDemo\Builds\XSession\HostProject\Plugins\XSession\Config\FilterPlugin.ini
+Loading FilterPluginWin64.ini
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 1m 37s
+AutomationTool exiting with ExitCode=0 (Success)
